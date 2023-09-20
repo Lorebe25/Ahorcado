@@ -35,23 +35,23 @@ function comprobar (){
        
         if(vidas<=5){
             
-        document.getElementById("imagen1").src='img/1.jpg';
+        document.getElementById("img1").src='img/1.jpg';
         }
         if(vidas<=4){
             
-            document.getElementById("imagen1").src='img/2.jpg';
+            document.getElementById("img1").src='img/2.jpg';
             }
             if(vidas<=3){
             
-                document.getElementById("imagen1").src='img/3.jpg';
+                document.getElementById("img1").src='img/3.jpg';
                 }
                 if(vidas<=2){
             
-                    document.getElementById("imagen1").src='img/4.jpg';
+                    document.getElementById("img1").src='img/4.jpg';
                     }
                     if(vidas<=1){
             
-                        document.getElementById("imagen1").src='img/5.jpg';
+                        document.getElementById("img1").src='img/5.jpg';
                         }
                         
 
@@ -59,13 +59,13 @@ function comprobar (){
      document.getElementById("frase").innerHTML=palabraAAdivinar
 
      if(vidas==0){
-         document.getElementById("imagen1").src='img/6.jpg';
+         document.getElementById("img1").src='img/6.jpg';
          alert ("perdiste");location.reload();
         
         
      }
      if(palabraAAdivinar.search("_")==-1){
-        document.getElementById("imagen1").src='img/win.gif';
+        document.getElementById("img1").src='img/win.gif';
        alert("ganaste");
        
        
